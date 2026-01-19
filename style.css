@@ -1,0 +1,153 @@
+/* Imports Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+/* Top section */
+header {
+  background-color: rgb(31, 41, 55);
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 98px 48px 98px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  margin: 6px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero.two {
+  display: flex;
+  align-items: center;
+  margin: 0 98px 12px 98px;
+}
+
+.hero.two h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero.two p {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 500px;
+}
+
+/* Middle section */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 108px 32px 108px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.pillars {
+  display: flex;
+  align-items: center;
+}
+
+.fundamentals,
+.community,
+.path {
+  margin: 12px 24px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pillar-info {
+  text-align: center;
+  width: 256px;
+
+}
+
+/* Quote section */
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+  padding: 48px 256px;
+}
+
+.quote footer {
+  text-align: right;
+}
+
+/* Banner section */
+.banner {
+  background-color: #3882F6;
+  margin: 32px 120px 32px 120px;
+  border-radius: 0.3cm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 48px;
+  color: #E5E7EB
+}
+
+.banner h3 {
+  font-size: 20px;
+}
+
+/* Footer section */
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  padding: 48px;
+}
+
+/* Button styling */
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 12px 18px;
+  border-radius: 2mm;
+  border: 2px solid #E5E7EB;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.explore,
+.mentorship {
+  border: none;
+}
+
+.explore {
+  margin-right: 10px; 
+}
